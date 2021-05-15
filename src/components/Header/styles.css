@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+  .navigation {
+    height: 12vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.2rem 0;
+  }
+
+  /* Logo */
+  .navigation__logo {
+    max-width: 225px;
+  }
+
+  .navigation__logo img {
+    width: 100%;
+  }
+
+  .navigation__menu {
+    width: 60px;
+    margin-right: 1rem;
+  }
+}
