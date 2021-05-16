@@ -4,6 +4,7 @@ import WhoWeAre from "./components/WhoWeAre";
 import Services from "./components/Services";
 import Team from "./components/Team";
 import Instagram from "./components/Instagram";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Team />
       <Instagram />
+      <Contact />
     </>
   );
 }
