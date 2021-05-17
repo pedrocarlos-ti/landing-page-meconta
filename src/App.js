@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Team from "./components/Team";
 import Instagram from "./components/Instagram";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Team />
       <Instagram />
       <Contact />
+      <Footer />
     </>
   );
 }
