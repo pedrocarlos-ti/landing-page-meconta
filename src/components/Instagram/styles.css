@@ -27,3 +27,34 @@
     max-width: 30rem;
   }
 }
+
+@media screen and (min-width: 601px) {
+  .instagram {
+    margin: 2rem 0 6rem 0;
+  }
+
+  .instagram_title {
+    color: #333333;
+    text-align: center;
+    margin: 0;
+    font-size: #4f4f4f;
+    font-size: 3.6rem;
+  }
+
+  .instagram_subtitle {
+    color: #4f4f4f;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .instagram-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .instagram-box img {
+    width: 100%;
+    max-width: 30rem;
+  }
+}
