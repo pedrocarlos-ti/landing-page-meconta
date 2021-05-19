@@ -14,22 +14,32 @@ export default function WhoWeAre() {
         educacional menos estressante e mais acolhedor.
       </p>
 
-      <img src={WHO_1} alt="" />
-      <h3 className="who__title">
-        O atendimento é prestado por alunos de psicologia voluntários
-      </h3>
-      <p className="who__subtitle">
-        A Me Conta? também surgiu para ajudá-los nesse processo de adquirir
-        experiência antes de ingressarem no mercado de trabalho. Oferecemos
-        certificado e mentoria.
-      </p>
+      <div className="who__one">
+        <div className="who__one__box">
+          <h3 className="who__title title__right">
+            O atendimento é prestado por alunos de psicologia voluntários
+          </h3>
+          <p className="who__subtitle subtitle__right">
+            A Me Conta? também surgiu para ajudá-los nesse processo de adquirir
+            experiência antes de ingressarem no mercado de trabalho. Oferecemos
+            certificado e mentoria.
+          </p>
+        </div>
+        <img src={WHO_1} alt="" />
+      </div>
 
-      <img src={WHO_2} alt="" />
-      <h3 className="who__title">Consultas discretas e online</h3>
-      <p className="who__subtitle">
-        Nosso atendimento é gratuito e individualizado, feito 100% online e se
-        adequa a realidade de cada pessoa
-      </p>
+      <div className="who__one reverse">
+        <div className="who__one__box">
+          <h3 className="who__title title__left">
+            Consultas discretas e online
+          </h3>
+          <p className="who__subtitle subtitle__left">
+            Nosso atendimento é gratuito e individualizado, feito 100% online e
+            se adequa a realidade de cada pessoa
+          </p>
+        </div>
+        <img src={WHO_2} alt="" />
+      </div>
     </div>
   );
 }

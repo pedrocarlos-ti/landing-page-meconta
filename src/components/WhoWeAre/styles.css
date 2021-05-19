@@ -11,11 +11,78 @@
     font-size: 2.6rem;
     text-align: center;
     color: #333333;
+    margin: 2rem 0;
   }
 
   .who__subtitle {
     font-size: 1.8rem;
     text-align: center;
     color: #828282;
+  }
+
+  img {
+    width: 26rem;
+  }
+}
+
+/* Modo Desktop */
+
+@media screen and (min-width: 601px) {
+  .who {
+    padding: 0 6rem;
+    height: 100vh;
+  }
+
+  .who__title {
+    font-weight: bold;
+    font-size: 3.6rem;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+  }
+
+  .who__subtitle {
+    font-size: 2rem;
+    text-align: center;
+    color: #828282;
+  }
+
+  .who__one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .who__one__box {
+    width: 40vw;
+  }
+
+  .title__right {
+    font-size: 2.4rem;
+    text-align: right;
+  }
+
+  .subtitle__right {
+    font-size: 1.6rem;
+    text-align: right;
+  }
+
+  .title__left {
+    font-size: 2.4rem;
+    text-align: left;
+  }
+
+  .subtitle__left {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+    margin-top: 6rem;
+  }
+
+  img {
+    width: 40rem;
   }
 }
