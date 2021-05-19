@@ -29,6 +29,26 @@ export default function Team() {
             <p className="team-name">Pedro Santos</p>
             <p className="team-work">Psicologo dos sábios</p>
           </div>
+
+          <div className="avatar-box-info block">
+            <img
+              className="avatar-image"
+              src="https://duetaz.org/wp-content/uploads/2018/02/placeholder-man-300x300.jpg"
+              alt="avatar"
+            />
+            <p className="team-name">Pedro Santos</p>
+            <p className="team-work">Psicologo dos sábios</p>
+          </div>
+
+          <div className="avatar-box-info block">
+            <img
+              className="avatar-image"
+              src="https://duetaz.org/wp-content/uploads/2018/02/placeholder-man-300x300.jpg"
+              alt="avatar"
+            />
+            <p className="team-name">Pedro Santos</p>
+            <p className="team-work">Psicologo dos sábios</p>
+          </div>
         </div>
 
         <div className="team-dots">
