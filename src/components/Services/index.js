@@ -6,7 +6,7 @@ import ServicesImg3 from "../../assets/services-3.jpeg";
 
 export default function Services() {
   return (
-    <div className="services">
+    <div className="services" id="servicos">
       <h3 className="services_title">Conheça nossos serviços</h3>
       <p className="services_subtitle">
         Temos o tipo de atendimento certo de acordo com a necessidade de cada um

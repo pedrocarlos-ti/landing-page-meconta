@@ -3,9 +3,10 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding: 0 6rem;
+    height: 79vh;
   }
 
   .hero__box {
@@ -41,7 +42,7 @@
     height: 5rem;
     border-radius: 5.5rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin: 3rem 0 0 0;
+    margin: 3rem 0 5rem 0;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
@@ -57,7 +58,6 @@
   .hero__img {
     max-width: 30rem;
     -webkit-user-drag: none;
-    margin: 2rem 0;
   }
 }
 
@@ -119,5 +119,41 @@
     -webkit-user-drag: none;
     margin: 0;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .hero {
+    height: 80vh;
+    justify-content: space-evenly;
+  }
+
+  .hero__title {
+    margin: 0;
+    font-size: 2.6rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.8rem;
+  }
+
+  .hero__btn {
+    width: 18rem;
+    height: 4rem;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.75s;
+    margin: 1rem 0 0 0;
+  }
+
+  .hero__btn:hover {
+    background-color: #0545ab;
+  }
+
+  .hero__img {
+    max-width: 30rem;
+    -webkit-user-drag: none;
   }
 }

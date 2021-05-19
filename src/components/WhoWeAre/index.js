@@ -5,7 +5,7 @@ import WHO_2 from "../../assets/who-2.jpeg";
 
 export default function WhoWeAre() {
   return (
-    <div className="who">
+    <div className="who" id="quem-somos">
       <h3 className="who__title">Quem somos?</h3>
       <p className="who__subtitle">
         A Me Conta? surgiu com o propósito de garantir que jovens do ensino

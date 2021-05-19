@@ -3,7 +3,7 @@ import "./styles.css";
 
 export default function Team() {
   return (
-    <div className="team">
+    <div className="team" id="time">
       <div className="team_box">
         <h3 className="team_title">Conheça nossa equipe</h3>
         <p className="team_subtitle">

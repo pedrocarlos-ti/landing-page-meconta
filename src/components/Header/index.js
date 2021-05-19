@@ -11,16 +11,16 @@ export default function Header() {
       <nav>
         <ul className="navigation__menu__list">
           <li className="navigation__item">
-            <a href="/">Quem somos</a>
+            <a href="#quem-somos">Quem somos</a>
           </li>
           <li className="navigation__item">
-            <a href="/">Serviços</a>
+            <a href="#servicos">Serviços</a>
           </li>
           <li className="navigation__item">
-            <a href="/">Equipe</a>
+            <a href="#time">Equipe</a>
           </li>
           <li className="navigation__item">
-            <a href="/">Contato</a>
+            <a href="#contato">Contato</a>
           </li>
           <li className="navigation__item">
             <button className="navigation__btn">Acesse já!</button>

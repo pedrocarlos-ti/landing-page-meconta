@@ -34,7 +34,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 3rem 0;
   }
 
   .navigation__menu__list {
