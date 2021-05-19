@@ -29,3 +29,35 @@
     max-width: 3rem;
   }
 }
+
+@media screen and (min-width: 601px) {
+  .footer {
+    margin-top: 5rem;
+    padding: 1rem 2rem 2rem;
+    background: linear-gradient(180deg, #67c3f3 0%, #5a98f2 100%);
+  }
+
+  .footer_title {
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+
+  .footer_subtitle {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .footer_social {
+    margin-top: 2rem;
+  }
+
+  .separator {
+    margin: 0 2rem;
+  }
+
+  .footer_icon {
+    max-width: 3rem;
+  }
+}
